@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>Welcome to My Homepage</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+      body {
+        background-color: #bedbed; /* soft bluish-gray */
+        font-family: Arial, sans-serif;
+        text-align: center;
+        color: #333333;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        margin-top: 100px;
+      }
+      h1 {
+        color: #3366cc;
+      }
+      input.button-link {
+        font-size: 16px;
+        padding: 10px 20px;
+        margin: 10px;
+        background-color: #ffffff;
+        color: #333333;
+        border: 1px solid #999999;
+        cursor: pointer;
+      }
+      input.button-link:hover {
+        background-color: #eeeeee;
+      }
+    </style>
+    <script type="text/javascript">
+      function goTo(url) {
+        window.location.href = url;
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to My Homepage!</h1>
+      <p>This website is built with <strong>HTML 4.01 Transitional</strong>.</p>
+      <p>Enjoy your stay!</p>
+      <input type="button" value="About Me" class="button-link" onclick="goTo('about.html')">
+      <input type="button" value="Contact" class="button-link" onclick="goTo('contact.html')">
+    </div>
+  </body>
+</html>
+<!-- This is a simple HTML 4.01 Transitional homepage with links to About Me and Contact pages. -->
